@@ -21,16 +21,16 @@ const ErrorOverlay = ({ error, clearError }) => {
 
 const styles = StyleSheet.create({
   overlay: {
-    ...StyleSheet.absoluteFillObject,
+    // ...StyleSheet.absoluteFillObject,
     flex:1,
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: 'rgba(0, 0, 0, 0.5)',
-    position:"relative",
-    zIndex: 999, // Ensure it's rendered on top of other components
+    position:"absolute",
+    // zIndex: 999, // Ensure it's rendered on top of other components
   },
   overlayContent: {
-    position:"absolute",
+    // position:"absolute",
     backgroundColor: 'white',
     padding: 20,
     borderRadius: 10,

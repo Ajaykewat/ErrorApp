@@ -16,7 +16,7 @@ const Root = () => {
 <Stack.Navigator>
         <Stack.Screen name="Home" component={Home} />
       </Stack.Navigator>
-      <FlashMessage statusBarHeight={30} position="top" />
+      <FlashMessage />
     </NavigationContainer>
     
   )
